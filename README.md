@@ -1,4 +1,3 @@
-## Joshua Quartey | Data Science &amp; Analytics Portfolio
 ### Introduction
 I’m a graduate student in the Master of Data Science and Analytics program at the University of Calgary, specializing in Data Science.
 
