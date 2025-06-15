@@ -34,7 +34,7 @@ To explore how construction activity—measured through building permits and con
 * Older neighborhoods with infill potential showed rising permit activity, suggesting gentrification trends.
 * Redevelopment and construction value were unevenly distributed across the city, raising concerns about equitable investment and accessibility.
 
-🔗 [View Full Project](projects/Urban_Housing_Analytics/Understanding Urban Development Patterns in Edmonton.ipynb)
+🔗 [View Full Project]("projects/Urban_Housing_Analytics/Understanding Urban Development Patterns in Edmonton.ipynb")
 
 
 #### Energy Analytics: Modeling Renewable Energy Adoption and CO₂ Emissions
@@ -60,7 +60,7 @@ To assess the relationship between the share of renewables in a country’s ener
 * Energy intensity moderated this effect: countries with lower intensity saw greater emission reductions from renewables.
 * Forecasting models that included renewable share outperformed models that used only historical CO₂ data, demonstrating the predictive value of renewable adoption rates.
 
-🔗 [View Full Project](projects/Energy_Analytics/Modeling Renewable Energy Adoption and CO₂ Emissions.ipynb)
+🔗 [View Full Project]("projects/Energy_Analytics/Modeling Renewable Energy Adoption and CO₂ Emissions.ipynb")
 
 #### Energy Analytics: Alberta Electricity Load Pattern Analysis
 
@@ -85,7 +85,7 @@ To analyze Alberta’s hourly electricity demand data using unsupervised and sup
 * Early-morning signals were highly predictive: the classification model achieved strong accuracy in identifying high-demand days.
 * Extracted rules can help grid operators trigger early warnings, improving grid efficiency and reliability.
 
-🔗 [View Full Project](projects/Energy_Analytics/Alberta Electricity Load Pattern Analysis.ipynb)
+🔗 [View Full Project]("projects/Energy_Analytics/Alberta Electricity Load Pattern Analysis.ipynb")
 
 
 
@@ -148,4 +148,4 @@ To analyze Alberta’s hourly electricity demand data using unsupervised and sup
 ### Blog 
 #### Posts
 * [Addressing Class Imbalance in High-Demand Electricity Load Prediction
-](Blog/posts/2025-06-13-class-imbalance-electricity.md)
+]("Blog/posts/2025-06-13-class-imbalance-electricity.md")
