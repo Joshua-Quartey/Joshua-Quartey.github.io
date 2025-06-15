@@ -146,6 +146,3 @@ To analyze Alberta’s hourly electricity demand data using unsupervised and sup
 
 
 ### Blog 
-#### Posts
-* [Addressing Class Imbalance in High-Demand Electricity Load Prediction
-]("Blog/posts/2025-06-13-class-imbalance-electricity.md")
