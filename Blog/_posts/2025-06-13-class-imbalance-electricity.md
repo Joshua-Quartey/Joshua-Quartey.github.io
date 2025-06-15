@@ -11,14 +11,14 @@ tags: [classification, electricity demand, imbalance, threshold tuning]
 
 While working on a classification model to predict high-demand electricity days in Alberta, I encountered an issue related to class imbalance. The target variable indicated whether a day’s peak electricity load fell in the top 10% of the distribution. This meant that only about 10% of the observations were labeled as "high demand," with the remaining 90% labeled as "not high demand".
 
-<figure>
+<figure style="text-align: center;>
   <img src="assets/images/class_distribution.png" alt="Class Distribution" width="450" style="display: block; margin: auto;">
   <figcaption style="text-align: center;"><em>Figure 1: Class distribution showing the imbalance in high-demand vs. non-high-demand days.</em></figcaption>
 </figure>
 
 Initial model performance, evaluated using overall accuracy, appeared strong. However, further inspection revealed that very few high-demand days were being correctly predicted. Reviewing the confusion matrix and class-wise precision and recall scores confirmed that the model was favoring the majority class. This indicated a need to address the imbalance in the training data to improve classification performance on the minority class.
 
-<figure>
+<figure style="text-align: center;>
   <img src="assets/images/confusion_matrix.png" alt="Confusion Matrix" width="450" style="display: block; margin: auto;">
   <figcaption style="text-align: center;"><em>Figure 2: Confusion matrix showing poor recall for the high-demand class before adjustments.</em></figcaption>
 </figure>
@@ -27,7 +27,7 @@ To manage the imbalance, I tested both **upsampling** and **downsampling** strat
 
 I also implemented **threshold adjustment** as an alternative strategy. Instead of relying on the default 0.5 classification threshold, I lowered the cutoff (e.g., to 0.3) to allow the model to classify more borderline cases as high demand. This increased the number of correctly identified high-demand days, with a trade-off in precision that was acceptable for the use case.
 
-<figure>
+<figure style="text-align: center;>
   <img src="assets/images/threshold_tuning.png" alt="Threshold Tuning Curve" width="500" style="display: block; margin: auto;">
   <figcaption style="text-align: center;"><em>Figure 3: Precision and recall scores at varying probability thresholds.</em></figcaption>
 </figure>
