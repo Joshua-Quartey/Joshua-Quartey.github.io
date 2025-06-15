@@ -1,4 +1,13 @@
-# Addressing Class Imbalance in High-Demand Electricity Load Prediction
+---
+title: "Addressing Class Imbalance in High-Demand Electricity Load Prediction"
+date: 2025-06-13
+layout: post
+author: Joshua Quartey
+tags: [classification, electricity demand, imbalance, threshold tuning]
+---
+
+
+## Addressing Class Imbalance in High-Demand Electricity Load Prediction
 
 While working on a classification model to predict high-demand electricity days in Alberta, I encountered an issue related to class imbalance. The target variable indicated whether a day’s peak electricity load fell in the top 10% of the distribution. This meant that only about 10% of the observations were labeled as "high demand," with the remaining 90% labeled as "not high demand".
 
