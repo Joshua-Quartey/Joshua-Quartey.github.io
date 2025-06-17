@@ -1,7 +1,7 @@
 #### Urban & Housing Analytics: Understanding Urban Development Patterns in Edmonton
 ##### Objective:
 
-To explore how construction activity—measured through building permits and construction value—reflects broader trends in zoning policy, urban development, and changing property values across Edmonton from 2009 to 2023.
+To explore how construction activity measured through building permits and construction value reflects broader trends in zoning policy, urban development, and changing property values across Edmonton from 2009 to 2023.
 
 ##### Methodology:
 
