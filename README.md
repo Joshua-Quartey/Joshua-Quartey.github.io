@@ -78,4 +78,4 @@ I’m passionate about using data to solve real-world problems and aim to build 
 
 ### Blog 
 * [Addressing Class Imbalance in High-Demand Electricity Load Prediction
-](Blog/_posts/2025-06-13-class-imbalance-electricity.md)
+](Blog/_posts/2025_06_13_class_imbalance_electricity.md)
